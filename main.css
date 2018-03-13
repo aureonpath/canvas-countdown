@@ -1,0 +1,52 @@
+body, div {
+    margin: 0;
+}
+canvas {
+    display: block;
+    width: 100%;
+}
+
+
+.goal {
+    display: flex;
+    background-color: white;
+    font-family: 'Special Elite', Verdana, Geneva, Tahoma, sans-serif;
+}
+.goal ul {
+   display: inline-block;
+    width: 100%;
+    font-size: 6vw;
+}
+.goal img {
+   width: 20vw;
+    padding: 2vw;
+    align-self: center;
+}
+
+.timer {
+  background-color: black;
+  color: red;
+  font-family: 'Press Start 2P', Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 24px;
+  width: 100%;
+}
+.timer .title {
+    font-size: 6vw;
+}
+.timer .content {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8vw;
+    padding-right: 2vw;
+}
+.timer .content div{
+  font-size: 3.5vw;
+  text-align:right;
+}
+
+.timer img {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+}
